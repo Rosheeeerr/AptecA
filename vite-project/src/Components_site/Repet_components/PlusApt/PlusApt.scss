@@ -1,0 +1,54 @@
+$Robo:"Roboto";
+.general_container_plusapt{
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+}
+.container_plusapt{
+    width: 95%;
+    height: 100px;
+    background-color:#F7FAFB;
+    border-radius: 3px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_pll_gen{
+    width: 260px;
+    height: 57px;
+    // background-color: chocolate;
+    display: flex;
+}
+.conta_img_plapt{
+    width: 30%;
+    height: 57px;
+    // background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conta_txt_pllsw{
+    width: 70%;
+    height: 57px;
+    // background-color: chartreuse;
+}
+.conta_title_plsl{
+    width: 100%;
+    height: 3vh;
+    // background-color: aqua;
+    p{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+.conta_subtitle_plsl{
+    width: 100%;
+    height: 4.5vh;
+    // background-color: rgb(130, 32, 145);
+    p{
+        width: 181px;
+        font-size: 14px;
+        color:#7C7C7C;
+    }
+}

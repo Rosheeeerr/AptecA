@@ -1,0 +1,220 @@
+$Robo:"Roboto";
+.general_container_how{
+    width: 100%;
+    height: 100vh;
+    // background-color: cadetblue;
+}
+.container_how{
+    width: 90%;
+    height: 100vh;
+    // background-color: burlywood;
+    margin: auto;
+}
+.container_head_how{
+    width: 100%;
+    height:7vh;
+    // background-color: blue;
+}
+.container_head_how h1{
+    font-family: $Robo;
+}
+.container_stuff_how{
+    width: 100%;
+    height: 20vh;
+    // background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.general_container_stu{
+    width:21vw;
+    height: 14vh;
+    // background-color: darkkhaki;
+}
+.container_stu{
+    width:21vw;
+    height: 14vh;
+    display: flex;
+}
+.container_stu_img{
+    width: 25%;
+    height: 14vh;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_hednum_stu{
+    width: 70%;
+    height: 5vh;
+    // background-color: rgb(166, 153, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_hednum_stu button{
+     width: 30px;
+     height: 30px;
+     border-radius: 30px;
+     border: 2px #2FD3AE dotted;
+     color: #2FD3AE;
+     font-family: $Robo;
+     background-color: rgba(184, 188, 188,0);
+}
+.container_hednum_stu p{
+    font-size: 18px;
+    font-family: $Robo;
+    font-weight: bold;
+    color: #333333;
+}
+.container_dis_stu {
+width: 100%;
+height: 7vh;
+// background-color:rebeccapurple ;
+display: flex;
+align-items: center;
+}
+.container_dis_stu p{
+    font-size: 14px;
+    font-family: $Robo;
+    color: #828282;
+}
+.container_otziv_general{
+    width: 100%;
+    height: 505px;
+    background-color: #F6FBFA;
+    display: flex;
+}
+.container_middle_otziv{
+    width: 35%;
+    height: 505px;
+    // background-color: #828282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_otziv_how_gen{
+    width: 65%;
+    height: 505px;
+    // background-color: #5f4d4d;
+    display: flex;
+    align-items: center;
+}
+.container_mid_otz{
+    width: 387px;
+    height: 345px;
+    background-color: white;
+    border-radius: 5px;
+}
+.container_head_otz_how{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    // background-color: aqua;
+}
+.container_hed_how{
+    width: 50%;
+    height: 100%;
+    // background-color: #46655e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_hed_how p{
+    width: 98px;
+    font-family: 24px;
+    font-weight: bold;
+    font-family: $Robo;
+    color: #333333;
+}
+.container_middle_ocenka_how{
+    width: 50%;
+    height: 100%;
+    // background-color: #4dd32f;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_ocenka_how{
+    height: 92px;
+    width: 93px;
+    // background-color: #5f4d4d;
+}
+.container_ocenka_how p{
+    font-size: 64px;
+    font-family: $Robo;
+    color: #333333;
+    font-weight: bold;
+}
+.container_disk_otzhow{
+    width: 100%;
+    height: 10vh;
+    // background-color: #b5a634;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.container_disk_otzhow p{
+    font-size: 16px;
+    font-family: $Robo;
+    color:#4F4F4F;
+    text-align: center;
+    width: 298px;
+}
+.container_bbt_how_otz{
+    width: 100%;
+    height: 17vh;
+    // background-color: #936b6b;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.container_bbt_how_otz button{
+width: 200px;
+height: 46px;
+border-radius: 50px;
+background-color: #2FD3AE;
+border: none;
+color: white;
+font-family: $Robo;
+font-size: 14px;
+font-weight: bold;
+cursor: pointer;
+}
+.container_otziv_how{
+    width: 100%;
+    height: 348px;
+    // background-color: rgb(103, 160, 95);
+}
+.container_otziv_one{
+    width: 100%;
+    height: 79px;
+    background-color: aqua;
+}
+.container_stuff_how_otz{
+    width: 100%;
+    height: 300px;
+    // background-color: rgb(76, 97, 73);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container_link_otz{
+    width: 18%;
+    height: 6.5vh;
+    // background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_link_otz a{
+    text-decoration: none;
+    font-family: $Robo;
+    font-size: 14px;
+    color: #2FD3AE;
+    font-weight: bold;
+}
+.container_link_otz img{
+   width: 20px;
+   height: 20px;
+}
