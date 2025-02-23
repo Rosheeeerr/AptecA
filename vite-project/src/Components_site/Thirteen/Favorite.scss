@@ -1,0 +1,126 @@
+$Robo:"Roboto";
+.general_container_favorite{
+    width: 100%;
+    height: 300vh;
+    // background-color: rgb(165, 111, 111);
+}
+.container_favorite_two{
+width: 90%;
+height: 260vh;
+// background-color: cadetblue;
+margin: auto;
+}
+.conta_what_the_page{
+    width: 15%;
+    height: 6vh;
+    // background-color: rgb(25, 89, 89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width:25px;
+        height:25px;
+    }
+    p{
+        font-family: $Robo;
+        font-size: 14px;
+    }
+    p:nth-of-type(1){
+        color:#2FD3AE;
+    }
+    p:nth-of-type(2){
+        color:#BDBDBD;
+    }
+}
+.conta_gen_head_favorite{
+    width: 100%;
+    height: 10vh;
+    // background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+}
+.conta_head_favorite{
+    width: 20%;
+    height: 10vh;
+    // background-color: #2FD3AE;
+    display: flex;
+    align-items: center;
+    h1{
+        color: rgba(46, 58, 89, 1);
+    }
+}
+.conta_other_stuff_favorite{
+    width: 470px;
+    height: 10vh;
+    // background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button:nth-of-type(1){
+        background-image:url(img_favorite/trash_full.png);
+        background-repeat: no-repeat;
+        width: 140px;
+        height: 24px;
+        color: rgba(130, 130, 130, 1);
+        font-weight: bold;
+        text-align: right;
+        border: none;
+        background-color: rgba(0,0,0,0);
+        font-size: 14px;
+        cursor: pointer;
+    }
+    button:nth-of-type(2){
+        width: 290px;
+        height: 50px;
+        background-color: #2FD3AE;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+    }
+}
+.container_tovari_cart{
+    width: 100%;
+    height: 140vh;
+    // background-color: burlywood;
+}
+.conta_cart_one{
+    width: 100%;
+    height: 70vh;
+    // background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+}
+.conta_benefits_favorite{
+    width: 100%;
+    height: 22vh;
+    // background-color: aqua;
+}
+.container_cart_fav{
+    width: 100%;
+    height: 45vh;
+    // background-color: burlywood;
+}
+.works_head_bbt{
+    width: 100%;
+    height: 10vh;
+    // background-color: aqua;
+}
+.head_con_cart{
+    width: 40%;
+    height: 10vh;
+}
+.cart_stuff_slider{
+    width: 100%;
+    height: 70vh;
+    // background-color: rgb(219, 120, 204);
+    display: flex;
+    justify-content: space-between;
+}
+.myFavorite{
+    width: 100%;
+    height: 70vh;
+    // background-color: bisque;
+}

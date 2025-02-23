@@ -19,7 +19,7 @@ export default function Nav(){
 
                         <div className="container_fisrt_top">
                             <div className="container_gen_place">
-                                <div className="container_logo_place"><Link to="/home"><img src={near} alt="" /></Link></div>
+                                <div className="container_logo_place"><img src={near} alt="" /></div>
                                  <div className="container_oblast">
                                     <p>Москва и область</p>
                                     <img src={bottarr} alt="" />
@@ -33,8 +33,8 @@ export default function Nav(){
                         </div>
                         
                         <div className="container_second_top">
-                            <div className="container_favorite"><button>Избранное</button></div>
-                            <div className="container_lk"><button>Личный кабинет</button></div>
+                            <div className="container_favorite"><Link to="/favorite"><button>Избранное</button></Link></div>
+                            <div className="container_lk"><Link to="/lk"><button>Личный кабинет</button></Link></div>
                         </div>
 
                     </div>
@@ -46,7 +46,7 @@ export default function Nav(){
                     <div className="container_middle">
 
                         <div className="container_logoSoc">
-                            <div className="container_logoSite"><img src={Logo} alt="" /></div>
+                            <div className="container_logoSite"><Link to="/home"><img src={Logo} alt="" /></Link></div>
                             <div className="container_socials"><img src={Social} alt="" /></div>
                         </div>
 

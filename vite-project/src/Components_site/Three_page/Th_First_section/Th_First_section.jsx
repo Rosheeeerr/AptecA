@@ -1,5 +1,5 @@
 import './Th_First_section.scss'
-import Nav from '../../Repet_components/Nav/Nav'
+import Nav from '../../Repet_components/Nav/Nav.jsx'
 import Home from './img_first/home.png'
 import duo from './img_first/chevron_duo_right.png'
 import Category from '../Category/Category'
