@@ -9,6 +9,7 @@ import SevenPg from './Components_site/Seven_page/SevenPg'
 import EightPage from './Components_site/Eight_page/Eight_page'
 import Favorite from './Components_site/Thirteen/Favorite'
 import Lk from './Components_site/Sixteen_page/Lk'
+import YourCart from './Components_site/Fourteen_page/CartPg'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
      <Route path='/Eight' element={<EightPage/>}/>
      <Route path="/favorite" element={<Favorite/>}/>
      <Route path="/lk" element={<Lk/>}/>
+     <Route path="/YourCart" element={<YourCart/>}/>
      </Routes>
     </HashRouter>
     

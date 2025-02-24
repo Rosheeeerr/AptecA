@@ -84,9 +84,11 @@ export default function Nav(){
 
 
                         <div className="container_general_order">
-                        <Link to="/ToPagesTwo"><button></button></Link>
+                        <Link to="/ToPagesTwo"><button className='searc'></button></Link>
                             <button>ЗАКАЗАТЬ ЗВОНОК</button>
-                            <button></button>
+                            <Link to="/YourCart"> <button className='Cart'></button> </Link>
+                           
+
                         </div>
 
                     </div>
