@@ -36,14 +36,14 @@ export default function Footer(){
                             <li>Самовывоз из аптеки </li>
                             <li>Оплата</li>
                             <li>Юридическим лица</li>
-                            <li>Лицензия</li>
+                            <Link to='/Elev'><li>Лицензия</li></Link>
                         </ul>
                     </div>
                     <div className="container_spicok_one">
                         <ul>
                             <li>Обратная связь</li>
                             <li>Реклама на сайте</li>
-                            <li>Франшиза</li>
+                            <Link to='/FivePg'><li>Франшиза</li></Link>
                             <li>Вакансии</li>
                             <li>Политика конфиденциальности</li>
                             <li>Пользовательское соглашение</li>

@@ -1,0 +1,65 @@
+$Robo:"Roboto";
+.container_general_eleven{
+width: 100%;
+height: 150vh;
+// background-color: aqua;
+}
+.container_eleven{
+    width: 90%;
+    height: 120vh;
+    // background-color: brown;
+    margin: auto;
+}
+.conta_what_the_page_el{
+    width: 20%;
+    height: 6vh;
+    // background-color: rgb(25, 89, 89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width:25px;
+        height:25px;
+    }
+    p{
+        font-family: $Robo;
+        font-size: 14px;
+    }
+    p:nth-of-type(1){
+        color:#2FD3AE;
+    }
+    p:nth-of-type(2){
+        color:#BDBDBD;
+    }
+}
+.conta_hea_ele{
+    width: 100%;
+    height: 5vh;
+    // background-color: #2FD3AE;
+    display:flex ;
+    align-items: center;
+    h1{
+        color: rgba(46, 58, 89, 1);
+    }
+}
+.disc_elev{
+    width: 100%;
+    height: 20vh;
+    // background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    p{
+        line-height: 30px;
+        color: rgba(130, 130, 130, 1);
+        font-size: 18px;
+    }
+}
+.conta_bac_ele{
+    width: 100%;
+    height: 86vh;
+    // background-color: chocolate;
+    background-image: url("img_elev/licence 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

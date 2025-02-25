@@ -17,11 +17,190 @@ box-shadow: 0px 2px 24px 0px rgba(34, 60, 80, 0.2);
 .conta_filter_head{
     width: 100%;
     height: 45px;
-    background-color: aqua;
+    // background-color: aqua;
     border-bottom:2px solid rgba(245, 245, 245, 1) ;
     p{
             font-weight: bold;
             padding: 5% 10%;
     }
 }
-
+.conta_filter_scroll{
+    width: 100%;
+    height: 126px;
+    border-top:1px solid #F5F5F5 ;
+    border-bottom:1px solid #F5F5F5 ;
+    // background-color: brown;
+}
+.price_filter{
+    width: 90%;
+    height: 5vh;
+    // background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    p{
+        font-size: 14px;
+        color:#828282;
+    }
+}
+.container_input_filter_one{
+    width: 90%;
+    height: 6vh;
+    // background-color: rgb(43, 226, 52);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    input{
+        width: 109px;
+        height: 33px;
+        border: 1px solid #E7E9EB;
+        border-radius: 5px;
+        font-size: 12px;
+        color: #DFDFDF; 
+    }
+    input::placeholder{
+        padding: 0px 10px;
+    }
+}
+.container_grad_scroll{
+    width: 90%;
+    height: 6vh;
+    // background-color: rgb(43, 226, 52);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_contry_filter_gen{
+    width: 100%;
+    height: 227px;
+    border-bottom:1px solid #F5F5F5;
+    // background-color: aqua;
+}
+.your_contry_filter{
+    width: 100%;
+    height: 23vh;
+    // background-color: rgb(234, 0, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    div{
+        width: 60%;
+        height: 20px;
+        // background-color: darkorchid;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-left: 5%;
+        p{
+            font-size: 13px;
+            color: rgba(130, 130, 130, 1);
+        }
+    }
+}
+.conta_vozdei_filter_gen{
+    width: 100%;
+    height: 300px;
+    // background-color: aqua;
+    border-bottom:1px solid #F5F5F5;
+}
+.conta_inp_filter{
+    width: 100%;
+    height: 60px;
+    // background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 235px;
+        height: 33px;
+        border-radius: 5px;
+        border:1px solid #F5F5F5;
+        font-size: 12px;
+        color: rgba(223, 223, 223, 1);
+        background-image: url(img_filter/search.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 8%;
+    }
+}
+.your_tocka_filter{
+    width: 100%;
+    height: 23vh;
+    // background-color: rgb(234, 0, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    div{
+        width: 70%;
+        height: 20px;
+        // background-color: darkorchid;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-left: 5%;
+        p{
+            font-size: 13px;
+            color: rgba(130, 130, 130, 1);
+        }
+    }
+}
+.container_in_stock_gen{
+    width: 100%;
+    height: 25vh;
+    // background-color: rgb(43, 226, 58);
+}
+.conta_ord_stocc{
+    width: 100%;
+    height: 7vh;
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    div{
+        width: 35%;
+        height: 3vh;
+        // background-color: blueviolet;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:5%;
+        p{
+            font-size: 13px;
+            color: #828282;
+        }
+    }
+}
+.cont_bbt_filt_stoc{
+width: 90%;
+height: 10vh;
+margin: auto;
+// background-color: aqua;
+display: flex;
+justify-content: space-between;
+align-items: end;
+button{
+    width: 109px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:nth-of-type(1){
+   background-color: #2FD3AE;
+   color: white;
+   font-size: 13px;
+   font-weight: bold;
+}
+button:nth-of-type(2){
+    background-color: #F9F9F9;
+    font-size: 13px;
+    color:#7C7C7C;
+ }
+}

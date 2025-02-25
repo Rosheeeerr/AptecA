@@ -12,11 +12,13 @@ height: 55vh;
     justify-content: space-between;
 }
 .container_stuff_hit{
-    width: 358px;
+    // width: 358px;
+    width: 100%;
     height: 130px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     display: flex;
+    box-shadow: 1px 2px 7px 1px rgba(34, 60, 80, 0.2);
 }
 .container_img_hit{
     width: 35%;

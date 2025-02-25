@@ -6,9 +6,26 @@ $Robo:"Roboto";
 }
 .simple-toggle-container {
     .container_other_stuff_slid3{
-        width: 30%;
+        width: 40%;
         height: 10vh;
         background-color: cornflowerblue;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img{
+          width: 79px;
+          height: 20px;
+        }
+        p{
+          font-size: 14px;
+        }
+        p:nth-of-type(1){
+          font-weight: bold;
+          color: rgba(51, 51, 51, 1);
+        }
+        p:nth-of-type(2){
+          color: rgba(130, 130, 130, 1);
+        }
     }
     .content-container {
         width: 100%;
@@ -18,7 +35,7 @@ $Robo:"Roboto";
     .buttons-container_general{
         width: 100%;
         height: 10vh;
-        background-color:#F7FAFB;
+        background-color:rgba(247, 250, 251, 1);
         display: flex;
         justify-content: space-between;
     }
@@ -40,6 +57,9 @@ $Robo:"Roboto";
         border-radius: 5px;
         transition: background-color 0.3s ease;
       }
+      button:hover{
+        color: rgba(47, 211, 174, 1);
+      }
       button:nth-child(5){
         background-image: url(more_horizontal.png);
         background-repeat: no-repeat;
@@ -49,7 +69,7 @@ $Robo:"Roboto";
   }
   .general_container_tovaslid{
     width: 100%;
-    height: 270vh;
+    height: 275vh;
     background-color: rgb(20, 220, 147);
   
     .container_tovaslide_one{
@@ -62,3 +82,16 @@ $Robo:"Roboto";
     }
     
   }
+.conta_bottom_bbt_slid3{
+    width: 100%;
+    height: 14vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.conta_bbt_slid3{
+  width: 100%;
+  height: 10vh;
+  background-color:rgba(247, 250, 251, 1);
+  border-radius: 5px;
+}

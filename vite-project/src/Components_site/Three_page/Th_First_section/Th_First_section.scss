@@ -1,14 +1,19 @@
 $Robo:"Roboto";
 .general_container_th_first{
     width: 100%;
-    height: 210vh;
+    height: 750vh;
     background-color:#F7FAFB;
 }
 .container_th_first{
     width: 90%;
-    height: 200vh;
+    height: 670vh;
     background-color: aqua;
     margin: auto;
+}
+.container_head_threePg{
+    width: 100%;
+    height: 12vh;
+    background-color: coral;
 }
 .container_subtitle_thfirst{
     width: 20%;
@@ -41,53 +46,27 @@ $Robo:"Roboto";
         color:#394045;
     }
 }
-.container_head_threePg{
+.container_common_sliflt{
     width: 100%;
-    height: 12vh;
-    background-color: coral;
-}
-.container_stuff_search_gen{
-    width: 100%;
-    height: 50vh;
+    height:435vh;
     background-color: blueviolet;
     display: flex;
 }
-.general_container_firstpart_threepg{
-    width: 100%;
-    height: 240vh;
-    background-color: crimson;
-    display: flex;
-}
-.conta_category_threepg{
+.container_filter_pg3{
     width: 20%;
-    height: 240vh;
-    background-color: deeppink;
+    height: 290vh;
+    background-color: cadetblue;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
 }
-.general_container_secondpart_threepg{
+.container_slider_pg3_one{
     width: 80%;
-    height: 227vh;
-    background-color: rgb(240, 243, 71);
+    height: 400vh;
+    background-color: #2f3ad3;
 }
-.containa_catal_two_general{
+.container_slider_pg3_two{
     width: 100%;
-    height: 926px;
-    background-color: coral;
+    height: 80vh;
+    background-color: #6bd32f;
 }
-.container_slider_threepg{
-    width: 80%;
-    height: 20vh;
-    background-color: blueviolet;
-}
-.container_slider_threepg{
-    width: 100%;
-    height: 180vh;
-    background-color: #2FD3AE;
-}
-
-
-  
-
-  
