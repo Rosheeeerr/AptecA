@@ -2,18 +2,18 @@ $Robo:"Roboto";
 .general_container_search{
     width: 100%;
     height: 170vh;
-    background-color: blueviolet;
+    // background-color: blueviolet;
 }
 .container_search{
     width: 90%;
     height: 125vh;
-    background-color: burlywood;
+    // background-color: burlywood;
     margin: auto;
 }
 .container_head_search{
     width: 45%;
     height: 15vh;
-    background-color: chartreuse;
+    // background-color: chartreuse;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ $Robo:"Roboto";
 .container_letter{
     width: 100%;
     height: 18.5vh;
-    background-color: aqua;
+    // background-color: aqua;
     background-image: url(img_search/А-Я.png);
     background-repeat: no-repeat;
     background-position:right;
@@ -69,25 +69,25 @@ $Robo:"Roboto";
 .container_catser_spisok{
     width: 100%;
     height: 125vh;
-    background-color: rgb(97, 77, 51);
+    // background-color: rgb(97, 77, 51);
     display: flex;
 }
 .conta_catser_uno_spi{
     width: 50%;
     height: 125vh;
-    background-color: coral;
+    // background-color: coral;
     display: flex;
 }
 .conta_catser_due_spi{
     width: 50%;
     height: 125vh;
-    background-color: rgb(255, 80, 150);
+    // background-color: rgb(255, 80, 150);
     display: flex;
 }
 .conta_catser_part_uno{
     width: 50%;
     height: 125vh;
-    background-color: chartreuse;
+    // background-color: chartreuse;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,7 +159,7 @@ $Robo:"Roboto";
 .conta_catser_part_due{
     width: 50%;
     height: 125vh;
-    background-color: rgb(0, 255, 157);
+    // background-color: rgb(0, 255, 157);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -276,17 +276,20 @@ li {
     }
 }}
 .conta_catser_part_tre{
-    width: 50%;
+     width: 50%;
     height: 122vh;
-    background-color: rgb(255, 255, 0);
+    // background-color: rgb(255, 255, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin: auto;
+}
+.container_catser_general{
+   
     div:nth-of-type(1){
-        width: 90%;
-        height: 255px;
+        width: 100%;
+        height: 250px;
         background-color: rgba(246, 251, 250, 1);
         border-radius: 10px;
         div:nth-of-type(1){
@@ -326,68 +329,7 @@ li {
         }
     }
     div:nth-of-type(3){
-        width: 53%;
-        height: 5vh;
-        // background-color: rgb(70, 132, 120);
-        display: flex;
-        align-items: center;
-        justify-content: right;
-        button{
-            width: 10vw;
-            height: 3vh;
-            cursor: pointer;
-            background-image: url(img_search/chevron_duo_right.png);
-            background-repeat: no-repeat;
-            background-position: left center;
-            border: none;
-            background-color: rgba(110, 123, 132, 0);
-            color: rgba(47, 211, 174, 1);
-            font-size: 14px;
-        }
-    }
-    div:nth-of-type(1){
-        width: 90%;
-        height: 255px;
-        background-color: rgba(246, 251, 250, 1);
-        border-radius: 10px;
-        div:nth-of-type(1){
-            width: 55%;
-            height: 6vh;
-            // background-color: aqua;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            p{
-                font-size: 18px;
-                font-weight: bold;
-            }
-        }
-        div:nth-of-type(2){
-            ul{
-                list-style: none; 
-                 padding-left: 0;
-    li {
-      position: relative; 
-      padding-left: 20px;
-      font-family: $Robo;
-      line-height:30px;
-      color:rgba(110, 123, 132, 1);
-      &::before {
-        content: ''; 
-        position: absolute; 
-        left: 5px; 
-        top: 50%; 
-        transform: translateY(-50%); 
-        width: 10px; 
-        height: 1px; 
-        background-color: rgba(110, 123, 132, 1);
-      }
-    }
-            }
-        }
-    }
-    div:nth-of-type(3){
-        width: 53%;
+        width: 55%;
         height: 5vh;
         // background-color: rgb(70, 132, 120);
         display: flex;

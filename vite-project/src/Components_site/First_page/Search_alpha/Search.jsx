@@ -2,7 +2,7 @@ import './Search.scss'
 import pills from './img_search/pill.png'
 import vitami from './img_search/vitamin.png'
 import boy from './img_search/baby-bo.png'
-import skin from './img_search/skin-car.png'
+import { searchstff } from './StuffSearch'
 export default function Search(){
     return(
         <>
@@ -183,26 +183,32 @@ export default function Search(){
                         <div className="conta_catser_due_spi">
                     
                              <div className="conta_catser_part_tre">
-                                <div>
+                                <CatSer {...searchstff[0]}/>
+                                <CatSer {...searchstff[1]}/>
+                                <CatSer {...searchstff[2]}/>
+                             </div>
+                             <div className="conta_catser_part_tre">
+                                <CatSer {...searchstff[3]}/>
+                                <CatSer {...searchstff[4]}/>
+                                <CatSer {...searchstff[5]}/>
+                             </div>
 
-                                <div className=""><img src={skin} alt="" /><p>Мать и дитя</p></div>
-                                    <div className="">
-                                        <ul>
-                                            <li>Стеклянные перегородки для дома</li>
-                                            <li>Стеклянные перегородки для офиса</li>
-                                            <li>Стеклянные перегородки</li>
-                                            <li>Декоративные перегородки</li>
-                                            <li>Противопожарные перегородки</li>
-                                        </ul>
-                                    </div>
-                                    <div><button>Все категории</button></div>
+                            </div>   
 
-                                </div>
+                    </div>
 
 
-                                <div>
-
-<div className=""><img src={skin} alt="" /><p>Мать и дитя</p></div>
+                </div>
+            </div> 
+        </>
+    )
+}
+export function CatSer(props){
+    return(
+        <>
+        <div className="container_catser_general">
+        <div>
+<div className=""><img src={props.img} alt="" /><p>{props.title}</p></div>
     <div className="">
         <ul>
             <li>Стеклянные перегородки для дома</li>
@@ -215,23 +221,7 @@ export default function Search(){
     <div><button>Все категории</button></div>
 
 </div>
-
-                                <div></div>
-                             </div>
-
-                             <div className="conta_catser_part_tre">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                             </div>
-
-                            </div>   
-
-                    </div>
-
-
-                </div>
-            </div> 
+        </div>
         </>
     )
 }
